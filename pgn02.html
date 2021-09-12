@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CADASTRO</title>
+    <link href="pgn02.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="ALUNO">
+
+        <h1>ALUNO</h1>
+
+        <form action="cadastro_aluno.php" method="POST">
+
+            <label for="matricula">MATRÍCULA</label><br>
+            <input type="number" name="matricula" id="matricula"><br>
+
+            <label for="nome">NOME</label><br>
+            <input type="text" name="nome" id="nome"><br>
+
+            <label for="rg">RG</label><br>
+            <input type="number" name="rg" id="rg"><br>
+
+            <label for="cpf">CPF</label><br>
+            <input type="number" name="cpf" id="cpf"><br>
+
+            <label for="data_nascimento">NASCIMENTO</label><br>
+            <input type="date" name="data_nascimento" id="data_nascimento"><br>
+
+            <label for="idTurma">TURMA (ID)</label><br>
+            <input type="number" name="idTurma" id="idTurma"><br>
+
+            <button type="submit">CADASTRAR</button>
+
+        </form>
+
+    </div>
+
+    <div class="LINHA01">
+    </div>
+
+    <div class="LINHA02">
+    </div>
+
+    <div class="LINHA03">
+    </div>
+
+    <div class="TURMA">
+
+        <h1>TURMA</h1>
+
+        <form action="cadastro_turma.php" method="POST">
+
+            <label for="turma">TURMA (ID)</label><br>
+            <input type="number" name="turma" id="turma"><br>
+
+            <label for="turma_nome">TURMA (NOME)</label><br>
+            <input type="text" name="turma_nome" id="turma_nome"><br>
+
+            <label for="curso_nome">CURSO (NOME)</label><br>
+            <input type="text" name="curso_nome" id="curso_nome"><br>
+
+            <button type="submit">CADASTRAR</button>
+
+        </form>
+
+    </div>
+
+
+
+
+</body>
+</html>
